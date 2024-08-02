@@ -1,5 +1,3 @@
-import { signIn } from "aws-amplify/auth";
-import type { FormEvent } from "react"; 
 
 import { Authenticator } from '@aws-amplify/ui-react';
 import { Amplify } from 'aws-amplify';

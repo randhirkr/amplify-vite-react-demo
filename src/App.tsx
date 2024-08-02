@@ -14,7 +14,7 @@ Amplify.configure({
 
 export default function App() {
   return (
-    <Authenticator socialProviders={['google', 'facebook']}>
+    <Authenticator  hideSignUp socialProviders={['google', 'facebook']}>
       {({ signOut, user }) => (
         <main>
           <h1>Hello {user?.username}</h1>

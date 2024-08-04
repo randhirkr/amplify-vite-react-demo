@@ -33,6 +33,7 @@ export default {
 Commands to setup and run the project
 ```
 npm create vite@latest amplify-vite-react-demo -- --template react-ts
-npm install @aws-amplify/ui-react aws-amplify
+npm install @aws-amplify/ui-react aws-amplify 
+npm install @aws-sdk/credential-providers
 npm run dev
 ```
